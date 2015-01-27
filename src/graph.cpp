@@ -60,7 +60,7 @@ void graph::add(const edge& edge)
 graph_edge::graph_edge(node_t to, short weight)
 : m_to(to), m_weight(weight)
 {
-
+  // empty on purpose
 }
 
 node_t graph_edge::to() const { return m_to; }
@@ -70,7 +70,7 @@ short graph_edge::weight() const {return m_weight; }
 edge::edge(node_t from, node_t to, int weight)
 : m_from(from), m_to(to), m_weight(weight)
 {
-
+  // empty on purpose
 }
 
 node_t edge::from() const { return m_from; }

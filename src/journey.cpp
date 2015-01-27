@@ -9,13 +9,13 @@ namespace fasttrack
 journey::journey(const node_t& from, const node_t& to)
 : m_from(from), m_to(to)
 {
-
+  // empty on purpose
 }
 
 journey::journey(const std::vector<node_t>& route)
 : m_from(route[0]), m_to(route[route.size()-1]), m_route(route)
 {
-
+  // empty on purpose
 }
 
 node_t journey::from() const { return m_from; }

@@ -11,8 +11,11 @@ namespace fasttrack
 namespace printer 
 {
 
-namespace {
-  std::string toJson(const journey& journey);
+namespace 
+{
+
+std::string toJson(const journey& journey);
+
 }
 
 std::string toJson(const std::vector<journey>& journeys)
