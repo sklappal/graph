@@ -8,7 +8,9 @@
 #include "graph.h"
 #include "journey.h"
 
-namespace fasttrack { namespace parser
+namespace fasttrack 
+{ 
+namespace parser
 {
 
 namespace
@@ -164,4 +166,5 @@ bool parseList(const std::string& line, const std::string& tag, std::vector<node
   return true;  
 }
 }
-}}
+}
+}

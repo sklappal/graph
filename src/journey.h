@@ -8,7 +8,6 @@ namespace fasttrack
 
 class journey
 {
-
   public:
 
     journey(const node_t& from, const node_t& to);

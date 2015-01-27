@@ -3,7 +3,8 @@
 
 #include <vector>
 
-namespace fasttrack { 
+namespace fasttrack 
+{
 
 class graph;
 class journey;

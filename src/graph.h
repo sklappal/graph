@@ -4,7 +4,8 @@
 #include <vector>
 #include <string>
 
-namespace fasttrack {
+namespace fasttrack 
+{
 
 class edge;
 class graph_edge;
@@ -13,7 +14,6 @@ typedef int node_t;
 
 class graph
 {
-
   public:
 
     graph(const std::vector<edge>& edges);

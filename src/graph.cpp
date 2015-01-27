@@ -10,7 +10,6 @@ namespace fasttrack
 
 graph::graph(const std::vector<edge>& edges)
 {
-  
   node_t max = std::numeric_limits<node_t>::min();
 
   for(auto& e : edges)
@@ -48,7 +47,6 @@ std::string graph::str() const
   }
 
   return ss.str();
-  
 }
 
 void graph::add(const edge& edge)
